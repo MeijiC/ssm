@@ -13,7 +13,7 @@ public interface AppointmentDao {
 	 * @param studentId
 	 * @return 插入的行数
 	 */
-	int insertAppointment(@Param("bookId") long bookId, @Param("studentId") long studentId);
+	int insertAppointment(@Param("boosskId") long bookId, @Param("studentId") long studentId);
 
 	/**
 	 * 通过主键查询预约图书记录，并且携带图书实体
